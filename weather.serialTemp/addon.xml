@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="weather.serialTemp" name="Serial Temperature Sensor" version="0.1" provider-name="Colinco">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.weather" library="default.py"/>
+	<extension point="xbmc.addon.metadata">
+
+		<summary lang="en">Temperature data over Serial</summary>
+
+		<description lang="en">Receives Tempreature data via Serial and provides it as weather info</description>
+
+		<platform>all</platform>
+		<license></license>
+		<website></website>
+		<email></email>
+	</extension>
+</addon>
